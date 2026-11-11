@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mkstudio.pages.dev/sitemap.xml
