@@ -22,7 +22,7 @@ ul{list-style:none;margin:0;padding:0}
 /* Header */
 .header{position:fixed;inset:0 0 auto;z-index:50;background:rgba(59,31,20,.96);backdrop-filter:blur(8px);box-shadow:0 2px 14px rgba(0,0,0,.2)}
 .header__in{display:flex;align-items:center;justify-content:space-between;height:68px}
-.brand img{height:44px;width:auto;border-radius:8px}
+.brand img{height:56px;width:56px;border-radius:50%}
 .nav{position:absolute;top:68px;left:0;right:0;background:var(--choc);display:none;flex-direction:column;padding:.5rem 1.25rem 1.25rem}
 .nav.open{display:flex}
 .nav a{color:var(--gold-l);text-decoration:none;padding:.8rem 0;border-bottom:1px solid rgba(230,207,152,.15);font-weight:400;letter-spacing:.04em}
@@ -106,7 +106,7 @@ blockquote{margin:0 0 1.2rem;font:italic 500 1.35rem/1.4 var(--serif);color:var(
 /* Rodapé */
 .footer{background:#27140c;color:#d9c9b4;padding:3rem 0 0;font-size:.9rem}
 .footer__in{display:grid;gap:1.4rem;justify-items:start}
-.footer img{border-radius:8px;width:150px}
+.footer img{border-radius:50%;width:120px;height:120px}
 .footer address{font-style:normal}
 .footer li{margin-bottom:.4rem}
 .footer a{color:var(--gold-l)}
