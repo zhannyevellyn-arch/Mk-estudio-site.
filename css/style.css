@@ -65,7 +65,9 @@ ul{list-style:none;margin:0;padding:0}
 /* Equipe */
 .team{display:grid;gap:2rem}
 .pro{overflow:hidden;display:flex;flex-direction:column}
-.pro__photo{width:100%;aspect-ratio:4/3;object-fit:cover}
+.pro__photo{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%}
+.pro__gallery{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;padding:.5rem .5rem 0}
+.pro__gallery img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:14px}
 .pro__body{padding:1.6rem 1.5rem 1.8rem}
 .pro h3 small{font:400 1.2rem var(--script);color:var(--gold-d);margin-left:.4rem}
 .pro__role{color:var(--muted);font-size:.92rem}
