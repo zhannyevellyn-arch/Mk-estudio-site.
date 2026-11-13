@@ -20,15 +20,15 @@ ul{list-style:none;margin:0;padding:0}
 :focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 
 /* Header */
-.header{position:fixed;inset:0 0 auto;z-index:50;background:rgba(59,31,20,.96);backdrop-filter:blur(8px);box-shadow:0 2px 14px rgba(0,0,0,.2)}
+.header{position:fixed;inset:0 0 auto;z-index:50;background:rgba(250,244,234,.96);backdrop-filter:blur(8px);box-shadow:0 2px 14px rgba(59,31,20,.12)}
 .header__in{display:flex;align-items:center;justify-content:space-between;height:68px}
 .brand img{height:56px;width:56px;border-radius:50%}
-.nav{position:absolute;top:68px;left:0;right:0;background:var(--choc);display:none;flex-direction:column;padding:.5rem 1.25rem 1.25rem}
+.nav{position:absolute;top:68px;left:0;right:0;background:var(--cream);box-shadow:0 10px 20px rgba(59,31,20,.1);display:none;flex-direction:column;padding:.5rem 1.25rem 1.25rem}
 .nav.open{display:flex}
-.nav a{color:var(--gold-l);text-decoration:none;padding:.8rem 0;border-bottom:1px solid rgba(230,207,152,.15);font-weight:400;letter-spacing:.04em}
-.nav a:hover{color:#fff}
+.nav a{color:var(--choc);text-decoration:none;padding:.8rem 0;border-bottom:1px solid rgba(156,122,53,.25);font-weight:400;letter-spacing:.04em}
+.nav a:hover{color:var(--gold-d)}
 .burger{background:none;border:0;padding:.6rem;cursor:pointer;display:grid;gap:5px}
-.burger span{display:block;width:24px;height:2px;background:var(--gold-l);transition:.3s}
+.burger span{display:block;width:24px;height:2px;background:var(--choc);transition:.3s}
 .burger[aria-expanded=true] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
 .burger[aria-expanded=true] span:nth-child(2){opacity:0}
 .burger[aria-expanded=true] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
@@ -136,7 +136,7 @@ blockquote{margin:0 0 1.2rem;font:italic 500 1.35rem/1.4 var(--serif);color:var(
 /* Desktop */
 @media (min-width:760px){
   .burger{display:none}
-  .nav{position:static;display:flex;flex-direction:row;gap:2rem;padding:0;background:none}
+  .nav{position:static;display:flex;flex-direction:row;gap:2rem;padding:0;background:none;box-shadow:none}
   .nav a{border:0;padding:.3rem 0}
   .strip__in{grid-template-columns:repeat(3,1fr)}
   .team{grid-template-columns:1fr 1fr}
