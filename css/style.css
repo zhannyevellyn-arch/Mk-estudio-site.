@@ -48,12 +48,6 @@ ul{list-style:none;margin:0;padding:0}
 .hero__sub{max-width:46ch;margin:0 auto 2rem;color:#eadfcf}
 .seal{display:inline-block;border:1px solid var(--gold);color:var(--gold-l);padding:.4rem 1.1rem;border-radius:999px;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase}
 
-/* Faixa */
-.strip{background:var(--beige);border-bottom:1px solid rgba(156,122,53,.2)}
-.strip__in{display:grid;gap:.25rem;padding-block:1rem;font-weight:400;font-size:.95rem}
-.strip li{display:flex;align-items:center;gap:.6rem;justify-content:center;padding:.3rem 0}
-.strip svg,.ico svg{fill:none;stroke:var(--gold-d);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-.strip svg{width:22px;height:22px;flex:none}
 
 /* Seções */
 .section{padding:4.5rem 0}
@@ -63,6 +57,10 @@ ul{list-style:none;margin:0;padding:0}
 .card{background:#fff;border-radius:var(--r);box-shadow:var(--shadow)}
 
 /* Equipe */
+.divider{display:flex;align-items:center;gap:1rem;max-width:420px;margin:0 auto 2.5rem}
+.divider span{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}
+.divider span:last-child{background:linear-gradient(270deg,transparent,var(--gold))}
+.divider i{width:10px;height:10px;background:var(--gold);transform:rotate(45deg);box-shadow:0 0 0 4px var(--cream),0 0 0 5px var(--gold)}
 .duo{margin:0 auto 2.5rem;max-width:420px;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
 .duo img{width:100%;height:auto}
 .team{display:grid;gap:2rem}
@@ -135,7 +133,6 @@ blockquote{margin:0 0 1.2rem;font:italic 500 1.35rem/1.4 var(--serif);color:var(
   .burger{display:none}
   .nav{position:static;display:flex;flex-direction:row;gap:2rem;padding:0;background:none;box-shadow:none}
   .nav a{border:0;padding:.3rem 0}
-  .strip__in{grid-template-columns:repeat(2,1fr)}
   .team{grid-template-columns:1fr 1fr}
   .features{grid-template-columns:repeat(3,1fr)}
   .footer__in{grid-template-columns:1fr 1fr 1.4fr;align-items:start}
