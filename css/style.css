@@ -63,6 +63,8 @@ ul{list-style:none;margin:0;padding:0}
 .card{background:#fff;border-radius:var(--r);box-shadow:var(--shadow)}
 
 /* Equipe */
+.duo{margin:0 auto 2.5rem;max-width:420px;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
+.duo img{width:100%;height:auto}
 .team{display:grid;gap:2rem}
 .pro{overflow:hidden;display:flex;flex-direction:column}
 .pro__photo{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%}
@@ -133,7 +135,7 @@ blockquote{margin:0 0 1.2rem;font:italic 500 1.35rem/1.4 var(--serif);color:var(
   .burger{display:none}
   .nav{position:static;display:flex;flex-direction:row;gap:2rem;padding:0;background:none;box-shadow:none}
   .nav a{border:0;padding:.3rem 0}
-  .strip__in{grid-template-columns:repeat(3,1fr)}
+  .strip__in{grid-template-columns:repeat(2,1fr)}
   .team{grid-template-columns:1fr 1fr}
   .features{grid-template-columns:repeat(3,1fr)}
   .footer__in{grid-template-columns:1fr 1fr 1.4fr;align-items:start}
